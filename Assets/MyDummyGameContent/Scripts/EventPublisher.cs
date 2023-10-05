@@ -1,14 +1,16 @@
 using System;
+using UnityEngine;
+using UnityEngine.Events;
 
-public class EventPublisher
+public class EventPublisher : MonoBehaviour
 {
-	public event EventHandler SomethingHappened;
+	public UnityEvent<object, EventArgs> SomethingHappened;
 
 	public void DoSomething()
 	{
 		// ... do something ...
 
-		// Raise the event
+		// Fire the event
 		OnSomethingHappened();
 	}
 
