@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
-public class ArrayProcessor : MonoBehaviour
+public class ArrayProcessor
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public int[] DoubleArrayValues(int[] array)
+	{
+		if (array == null)
+		{
+			throw new ArgumentNullException(nameof(array));
+		}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i] *= 2;
+		}
+
+		return array;
+	}
 }

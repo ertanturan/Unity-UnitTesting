@@ -4,4 +4,9 @@ public class MathOperations
 	{
 		return a + b;
 	}
+
+	public static int MultiplyByTwo(int value)
+	{
+		return value * 2;
+	}
 }
