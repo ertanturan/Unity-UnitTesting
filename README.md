@@ -1,6 +1,6 @@
 # Unity C# Tutorial: Usage of Nunit in Unity with C#
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dXAQ3L3dySc/0.jpg)](https://www.youtube.com/watch?v=dXAQ3L3dySc)
+[![Unity Tutorial](https://img.youtube.com/vi/dXAQ3L3dySc/0.jpg)](https://www.youtube.com/watch?v=dXAQ3L3dySc)
 
 ## Description
 This repository contains the code and project files referenced in the YouTube tutorial titled "Unity C# Tutorial: Usage of Nunit in Unity with C#". 
